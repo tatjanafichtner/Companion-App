@@ -1,0 +1,89 @@
+:root {
+  /* Colors*/
+
+  --clr-bg-nav: #e0e4e8; /* medium-grey */
+  --clr-bg-main: #f8f8f8; /* light-grey */
+  --clr-call-to-action: #ff5a36; /*Tangerine-100 */
+  --clr-cta-75: #ff9c86; /*Tangerine-200 */
+  --clr-cta-50: #ffbdaf; /*Tangerine-300 */
+  --clr-cta-25: #ffded7; /*Tangerine-400 */
+  --clr-text: #193251; /* Denim-100 */
+  --clr-item: #7589a2; /* Denim-200 */
+}
+/* Typography */
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(fonts/OpenSans-Regular.ttf);
+}
+.txt-title {
+  font-family: "OpenSans";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.txt-bdy-large {
+  font-family: "Open-Sans";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.txt-bdy-small {
+  font-family: "open-sans";
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.txt-headline-upper {
+  font-family: "open-sans";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.txt-headline {
+  font-family: "open-sans";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.txt-label {
+  font-family: "open-sans";
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* Borders */
+
+.border-light {
+  border: 1px solid var(--clr-item);
+  border-radius: 10px;
+}
+
+.border-dark {
+  border: 1px solid var(--clr-text);
+  border-radius: 10px;
+}
+
+/* Box Shadows */
+
+.box-shadow-normal {
+  box-shadow: 0px 2px 11px var(--clr-item);
+  border-radius: 10px;
+}
+
+.box-shadow-tangerine {
+  box-shadow: 0px 4px 10px var(--clr-call-to-action);
+  border-radius: 10px;
+}
