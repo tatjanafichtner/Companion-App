@@ -16,6 +16,7 @@
   font-family: "OpenSans";
   src: url(fonts/OpenSans-Regular.ttf);
 }
+
 .txt-title {
   font-family: "OpenSans";
   font-weight: 700;
@@ -35,14 +36,14 @@
 }
 
 .txt-bdy-small {
-  font-family: "open-sans";
+  font-family: "Open-Sans";
   font-size: 14px;
   line-height: 20px;
   text-align: center;
 }
 
 .txt-headline-upper {
-  font-family: "open-sans";
+  font-family: "Open-Sans";
   font-weight: 600;
   font-style: normal;
   font-size: 14px;
@@ -51,7 +52,7 @@
 }
 
 .txt-headline {
-  font-family: "open-sans";
+  font-family: "Open-Sans";
   font-weight: 600;
   font-style: normal;
   font-size: 14px;
@@ -59,7 +60,7 @@
 }
 
 .txt-label {
-  font-family: "open-sans";
+  font-family: "Open-Sans";
   font-size: 12px;
   line-height: 16px;
 }
