@@ -6,7 +6,7 @@
 @import url("journal-5.css");
 @import url("journal-6.css");
 
-/* import your *.css file above this line */
+/* imported  *.css files above this line */
 
 body {
   margin: 0;
@@ -35,6 +35,7 @@ header div {
   color: var(--clr-text);
   text-align: center;
 }
+
 /* ======================================================
      Main Section: Do not write here, use your-page.css
    ====================================================== */
