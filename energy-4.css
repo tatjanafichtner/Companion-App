@@ -1,12 +1,6 @@
 /* Das Bild mit den Balken src=("images/energy-graph.svg")
 Du schaffst das Samir! <3 */
 
-.energy-4 {
-  margin: 100px 30px;
-  box-sizing: border-box;
-  color: var(--clr-text);
-}
-
 /* Overview section */
 
 .energy-4 img {
