@@ -36,6 +36,11 @@ header div {
   text-align: center;
 }
 
+main {
+  padding: 100px 30px;
+  color: var(--clr-text);
+}
+
 /* ======================================================
      Main Section: Do not write here, use your-page.css
    ====================================================== */
