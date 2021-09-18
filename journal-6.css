@@ -5,11 +5,6 @@
     check = images/icon-checked <- will only be visible after checking background color for button
 */
 
-.jrnl-6 {
-  padding: 100px 30px;
-  color: var(--clr-text);
-}
-
 .jrnl-6 h2 {
   text-align: left;
 }
