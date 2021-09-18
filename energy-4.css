@@ -1,2 +1,54 @@
 /* Das Bild mit den Balken src=("images/energy-graph.svg")
 Du schaffst das Samir! <3 */
+
+.energy-4 {
+  margin: 100px 30px;
+  box-sizing: border-box;
+  color: var(--clr-text);
+}
+
+/* Overview section */
+
+.energy-4 img {
+  width: 100%;
+}
+
+/* Energy buttons */
+
+.energy-4 .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.energy-4 #hundred {
+  background-color: var(--clr-call-to-action);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 12px 40px;
+}
+
+.energy-4 #seventy-five {
+  background-color: var(--clr-cta-75);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 12px 40px;
+}
+
+.energy-4 #fifty {
+  background-color: var(--clr-cta-50);
+  color: var(--clr-call-to-action);
+  border-radius: 4px;
+  border: none;
+  padding: 12px 40px;
+}
+
+.energy-4 #twenty-five {
+  background-color: var(--clr-cta-25);
+  color: var(--clr-call-to-action);
+  border-radius: 4px;
+  border: none;
+  padding: 12px 40px;
+}
