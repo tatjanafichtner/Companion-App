@@ -1,8 +1,8 @@
 :root {
   /* Colors*/
 
-  --clr-bg-nav: #e0e4e8; /* medium-grey */
-  --clr-bg-main: #f8f8f8; /* light-grey */
+  --clr-bg-icon: #e0e4e8; /* medium-grey */
+  --clr-bg-nav: #f8f8f8; /* light-grey */
   --clr-call-to-action: #ff5a36; /*Tangerine-100 */
   --clr-cta-75: #ff9c86; /*Tangerine-200 */
   --clr-cta-50: #ffbdaf; /*Tangerine-300 */
