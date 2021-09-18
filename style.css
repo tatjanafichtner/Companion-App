@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%; /* on pages headline + label = 81px */
   background-image: url("images/header-bg-small.svg");
@@ -41,7 +41,7 @@ header div {
    ====================================================== */
 
 footer nav {
-  position: absolute;
+  position: fixed;
   display: flex;
   bottom: 20px;
   left: 20px;
