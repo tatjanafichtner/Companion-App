@@ -1,6 +1,96 @@
 /*  blue star = images/star-filled
     grey star = images/star-background
     blue square = images/square-filled
-    grey square = images/square background
+    grey square = images/square-background
     check = images/icon-checked <- will only be visible after checking background color for button
 */
+
+.jrnl-6 {
+  padding: 100px 30px;
+  color: var(--clr-text);
+}
+
+.jrnl-6 h2 {
+  text-align: left;
+}
+.jrnl-6 section {
+  margin: 40px 0;
+}
+
+.jrnl-6 h3 {
+  text-align: left;
+}
+
+.jrnl-6 .rating div {
+  width: 67%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jrnl-6 .comprehension div {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* inputs */
+
+.jrnl-6 input {
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Motto: */
+
+.jrnl-6 .motto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.jrnl-6 #motto {
+  color: var(--clr-text);
+  border-color: var(--clr-bg-icon);
+  border-radius: 4px;
+  line-height: 24px;
+  padding: 19px 20px;
+}
+
+/* Notes: */
+
+.jrnl-6 .notes-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.jrnl-6 #notes {
+  color: var(--clr-text);
+  border-color: var(--clr-bg-icon);
+  border-radius: 4px;
+  line-height: 24px;
+  padding: 19px 20px;
+}
+
+/* buttons */
+
+.jrnl-6 .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jrnl-6 #cancel {
+  color: var(--clr-text);
+  background-color: white;
+  border: none;
+  margin: 0 8px;
+  padding: 12px 40px;
+  border-radius: 4px;
+}
+
+.jrnl-6 #save {
+  color: white;
+  background-color: var(--clr-call-to-action);
+  margin: 0 8px;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 4px;
+}
