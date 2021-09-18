@@ -27,7 +27,7 @@ header {
   height: 81px;
 }
 
-h1 {
+header h1 {
   color: var(--clr-text);
 }
 
@@ -35,13 +35,9 @@ header div {
   color: var(--clr-text);
   text-align: center;
 }
-/* ======================
-    Main below this line
-   ====================== */
-
-/* ======================
-    Main above this line
-   ====================== */
+/* ======================================================
+     Main Section: Do not write here, use your-page.css
+   ====================================================== */
 
 footer nav {
   position: absolute;
