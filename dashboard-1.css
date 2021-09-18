@@ -1,1 +1,19 @@
 /* Du kannst jetz gemütlich copy pasten, margin:0 padding:0 sind jetzt im style.css */
+
+.dashboard-1 ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  box-sizing: border-box;
+  padding: 0;
+  place-items: center;
+  position: relative;
+}
+
+.dashboard-1 img {
+  position: absolute;
+}
+
+.dashboard-1 li {
+  color: var(--clr-text);
+}
