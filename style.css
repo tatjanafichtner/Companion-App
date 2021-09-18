@@ -1,4 +1,10 @@
 @import url("token.css");
+@import url("dashboard-1.css");
+@import url("buddy-2.css");
+@import url("team-3.css");
+@import url("energy-4.css");
+@import url("journal-5.css");
+@import url("journal-6.css");
 
 /* import your *.css file above this line */
 
@@ -17,6 +23,10 @@ header {
   background-repeat: no-repeat;
 }
 
+.header-labeled {
+  height: 81px;
+}
+
 h1 {
   color: var(--clr-text);
 }
@@ -25,11 +35,17 @@ header div {
   color: var(--clr-text);
   text-align: center;
 }
+/* ======================
+    Main below this line
+   ====================== */
+
+/* ======================
+    Main above this line
+   ====================== */
 
 footer nav {
   position: absolute;
   display: flex;
-  min-width: fit-content;
   bottom: 20px;
   left: 20px;
   right: 20px;
