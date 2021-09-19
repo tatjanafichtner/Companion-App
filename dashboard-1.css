@@ -9,7 +9,7 @@
   padding: 0;
   place-items: center;
   position: relative;
-  color: var(--clr-text);
+  color: var(--clr-item);
 }
 
 .dashboard-1 li {
