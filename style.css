@@ -1,0 +1,61 @@
+@import url("token.css");
+@import url("./buddy-2&3.css");
+
+
+/* imported  *.css files above this line */
+
+*{
+    padding: 0;
+    margin: 0;
+}/*change from body to * because it doesn't work*/
+header {
+  position: fixed;
+  top: 0;
+  width: 100%; /* on pages headline + label = 81px */
+  background-image: url("mages/header-bg-large.svg");
+  background-color: white;/*add because z-index doesn't work*/
+  height: 59px;
+  z-index: 1;
+}
+
+#header-labeled {
+  background-image: url("images/header-bg-large.svg");
+  height: 81px;
+}
+
+header h1 {
+  color: var(--clr-text);
+}
+
+header p {
+  color: var(--clr-text);
+  text-align: center;
+}
+
+main {
+  padding: 100px 30px;
+  color: var(--clr-text);
+}
+
+/* ======================================================
+     Main Section: Do not write here, use your-page.css
+   ====================================================== */
+
+footer nav {
+  position: fixed;
+  display: flex;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  height: 44px;
+  z-index: 1;
+  background-color:white;/*add because z-index doesn't work*/
+}
+
+footer nav a {
+  display: flex;
+  padding: 0.5rem;
+  margin: 0.1rem;
+  justify-content: center;
+  flex-grow: 1;
+}

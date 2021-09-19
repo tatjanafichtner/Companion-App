@@ -1,54 +1,8 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-main{
-    color:var(--clr-item);
-    margin: 3rem 0.5rem;
-}
-ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin: 1rem auto;
-    margin-top: 0;
-}
-li{
-    border: 1px solid var(--clr-item);
-    padding: 1rem ;
-    width: 100%;
-    position: relative;
-}
-.top{
-    border-radius: 6px 6px 0px 0px;
-    border-bottom: 0;
-}
-.bottom{
-    border-radius: 0px 0px 6px 6px;
-}
-.middele{
-    border-bottom: 0;
-}
-main img{
-    position: absolute;
-}
-main h5{
-    color: black;
-    padding-left: 1.5rem;
-    margin-bottom: 0;
-    line-height: 2rem;
-    text-align: left;
-}
-
-/*token test*/
 :root {
   /* Colors*/
 
-  --clr-bg-nav: #e0e4e8; /* medium-grey */
-  --clr-bg-main: #f8f8f8; /* light-grey */
+  --clr-bg-icon: #e0e4e8; /* medium-grey */
+  --clr-bg-nav: #f8f8f8; /* light-grey */
   --clr-call-to-action: #ff5a36; /*Tangerine-100 */
   --clr-cta-75: #ff9c86; /*Tangerine-200 */
   --clr-cta-50: #ffbdaf; /*Tangerine-300 */
@@ -73,23 +27,22 @@ main h5{
 }
 
 .txt-bdy-large {
-  font-family: "Open-Sans";
+  font-family: "OpenSans";
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
 }
 
 .txt-bdy-small {
-  font-family: "Open-Sans";
+  font-family: "OpenSans";
   font-size: 14px;
   line-height: 20px;
   text-align: center;
 }
 
 .txt-headline-upper {
-  font-family: "Open-Sans";
+  font-family: "OpenSans";
   font-weight: 600;
   font-style: normal;
   font-size: 14px;
@@ -98,7 +51,7 @@ main h5{
 }
 
 .txt-headline {
-  font-family: "Open-Sans";
+  font-family: "OpenSans";
   font-weight: 600;
   font-style: normal;
   font-size: 14px;
@@ -106,7 +59,7 @@ main h5{
 }
 
 .txt-label {
-  font-family: "Open-Sans";
+  font-family: "OpenSans";
   font-size: 12px;
   line-height: 16px;
 }
