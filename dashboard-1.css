@@ -1,5 +1,6 @@
 /* Du kannst jetz gemütlich copy pasten, margin:0 padding:0 sind jetzt im style.css */
 
+/* buddy + Team Seciton */
 .dashboard-1 ul {
   display: flex;
   flex-direction: column;
@@ -8,12 +9,23 @@
   padding: 0;
   place-items: center;
   position: relative;
+  color: var(--clr-text);
+}
+
+.dashboard-1 li {
+  padding: 19px 0;
 }
 
 .dashboard-1 img {
   position: absolute;
+  left: auto;
+  top: 40%;
 }
 
-.dashboard-1 li {
-  color: var(--clr-text);
+.dashboard-1 li:not(:last-child) {
+  border-bottom: 1px solid var(--clr-item);
+  width: 100%;
+  text-align: center;
 }
+
+/* Journal Section */
